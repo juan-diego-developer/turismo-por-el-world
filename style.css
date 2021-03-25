@@ -47,10 +47,10 @@ body{
     }
 
 #parallax-norte {
-    background-image: url(https://images.unsplash.com/photo-1600670897969-3e34829b3218?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
+    background-image: url(https://images.unsplash.com/photo-1517303787721-2830f0484010?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1491&q=80);
     /* Full height */
     height: 500px;
-    width: 100%;
+    width: 150%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -60,7 +60,7 @@ body{
     }
 
 #parallax-asia {
-    background-image: url(https://images.unsplash.com/photo-1600670897969-3e34829b3218?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
+    background-image: url(https://images.unsplash.com/photo-1464817739973-0128fe77aaa1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
     /* Full height */
     height: 500px;
     width: 100%;
@@ -73,7 +73,7 @@ body{
     }
 
 #parallax-europa {
-    background-image: url(https://images.unsplash.com/photo-1600670897969-3e34829b3218?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
+    background-image: url(https://images.unsplash.com/photo-1614081162574-37e74ac7768b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
     /* Full height */
     height: 500px;
     width: 100%;
@@ -86,7 +86,8 @@ body{
     }
 
 #parallax-africa {
-    background-image: url(https://images.unsplash.com/photo-1600670897969-3e34829b3218?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
+    /* background-image: url(https://images.unsplash.com/photo-1548275709-ae49cf37542f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1456&q=80); */
+    background-image: url(https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80);
     /* Full height */
     height: 500px;
     width: 100%;
@@ -99,7 +100,8 @@ body{
     }
 
 #parallax-oceania {
-    background-image: url(https://images.unsplash.com/photo-1600670897969-3e34829b3218?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
+    background-image: url(https://images.unsplash.com/photo-1588001400947-6385aef4ab0e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1268&q=80);
+    /* background-image: url(https://images.unsplash.com/photo-1589330273594-fade1ee91647?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80); */
     /* Full height */
     height: 500px;
     width: 100%;
