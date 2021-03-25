@@ -33,12 +33,77 @@ body{
     color:white;
 }
 
-.parallax {
+#parallax-latina {
     background-image: url(https://images.unsplash.com/photo-1600670897969-3e34829b3218?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
   /* Full height */
     height: 500px;
     width: 100%;
   /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: 50rem; 
+    padding-top: 30rem; */
+    }
+
+#parallax-norte {
+    background-image: url(https://images.unsplash.com/photo-1600670897969-3e34829b3218?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
+    /* Full height */
+    height: 500px;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: 50rem; 
+    padding-top: 30rem; */
+    }
+
+#parallax-asia {
+    background-image: url(https://images.unsplash.com/photo-1600670897969-3e34829b3218?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
+    /* Full height */
+    height: 500px;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: 50rem; 
+    padding-top: 30rem; */
+    }
+
+#parallax-europa {
+    background-image: url(https://images.unsplash.com/photo-1600670897969-3e34829b3218?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
+    /* Full height */
+    height: 500px;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: 50rem; 
+    padding-top: 30rem; */
+    }
+
+#parallax-africa {
+    background-image: url(https://images.unsplash.com/photo-1600670897969-3e34829b3218?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
+    /* Full height */
+    height: 500px;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: 50rem; 
+    padding-top: 30rem; */
+    }
+
+#parallax-oceania {
+    background-image: url(https://images.unsplash.com/photo-1600670897969-3e34829b3218?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
+    /* Full height */
+    height: 500px;
+    width: 100%;
+    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -92,20 +157,22 @@ main {
 }
 
 #fondo-card{
-    background-image: url(https://media.giphy.com/media/2hgs0P312wdBCOgOAf/giphy.gif);
+    background-image: url(https://media.giphy.com/media/xGrjBxxEBvWTBtkAk4/giphy-downsized-large.gif);
+    padding-bottom: 8rem;
 }
 
-#america-latina {
+#fondo-parallax {
     background: white;
 }
 
 #destinos {
     padding-top: 5rem;
-    padding-left: 20rem;
+    padding-left: 5rem;
     padding-bottom: 5rem;
 }
 
 #border {
     border-style: double;
     padding-left: 3rem;
+    background: white;
 }
