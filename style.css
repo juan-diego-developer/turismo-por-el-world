@@ -18,19 +18,21 @@ body{
 }
 
 .navbar {
-    background-color:#018267;
+    background-color:#adc8e6;
     opacity: 0.9;
 }
 
 .dropdown-menu {
     font-family: 'Archivo Narrow', sans-serif;
     font-size:auto;
-    background-color: #b3bcbd;
+    background-color: #adc8e6;
     /* opacity: 0.5; */
+    color:white;
 }
 
-.dropdown-menu {
-    color:white;
+#dropdownMenuButton1 {
+    background: white ;
+    color: black;
 }
 
 #parallax-latina {
@@ -165,6 +167,8 @@ main {
 
 #fondo-parallax {
     background: white;
+    padding-right: 3rem;
+    padding-left: 3rem;
 }
 
 #destinos {
@@ -185,7 +189,7 @@ main {
     flex-flow: row wrap;
     padding: 30px 30px 20px 30px;
     color: #2f2f2f;
-    background-color: #fff;
+    background-color: black;
     border-top: 1px solid #e5e5e5;
 }
 
@@ -306,3 +310,4 @@ main {
         flex: 2 0px;
     }
 }
+
