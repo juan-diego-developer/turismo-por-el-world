@@ -12,23 +12,42 @@
         <link rel="stylesheet" href="./style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     </head>
     <body>
         <header>
             <!-- navbar -->
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg d-flex  fixed-top">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="navbar-brand" href="#title">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#"><strong>Principal</strong></a>
-                            <a class="nav-link" href="#"><strong>Planes</strong></a>
-                            <a class="nav-link" href="#"><strong>Destinos</strong></a>
-                            <a class="nav-link"  href="#"><strong>Comunicate con nosotros</strong></a>
-                        </div>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#title">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">asociate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">recomendados</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    destinos
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#parallax-latina">America latina</a></li>
+                                    <li><a class="dropdown-item" href="#parallax-norte">America del norte</a></li>
+                                    <li><a class="dropdown-item" href="#parallax-asia">Asia</a></li>
+                                    <li><a class="dropdown-item" href="#parallax-europa">Europa</a></li>
+                                    <li><a class="dropdown-item" href="#parallax-africa">Africa</a></li>
+                                    <li><a class="dropdown-item" href="#parallax-oceania">Oceania</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -75,11 +94,15 @@
                 <div id="mexico" class="flip-card container d-flex justify-content-center align-items-center pt-5 mt-5" style="width: 20rem;">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="https://images.unsplash.com/photo-1567855613099-5d5bf3b8457c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="torre maya" style="width:300px;height:300px;">
+                            <div class="fs-1 d-flex justify-content-center align-items-center flex-column px-5 " id="title-card">
+                                <h1>MEXICO</h1>
+                                <i class="fas fa-arrow-circle-right"></i>
+                            </div>    
+                            <!-- <img src="https://images.unsplash.com/photo-1567855613099-5d5bf3b8457c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="torre maya" style="width:300px;height:300px;"> -->
                         </div>
                         <div class="flip-card-back">
-                            <h1>MEXICO</h1> 
-                            <p>Architect & Engineer</p> 
+                            
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -93,7 +116,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>ARGENTINA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p>  
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -107,7 +130,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>COLOMBIA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p>  
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -121,7 +144,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>BRASIL</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p>  
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -135,7 +158,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>CHILE</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -149,7 +172,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>PANAMA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -163,7 +186,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>PERU</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -177,7 +200,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>URUGUAY</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -191,7 +214,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>NICARAGUA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -204,8 +227,8 @@
                             <img src="https://images.unsplash.com/photo-1581947665698-985b774e8c46?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1267&q=80" alt="bosques nativos" style="width:300px;height:300px;">
                         </div>
                         <div class="flip-card-back">
-                            <h1>SALAVADOR</h1> 
-                            <p>Architect & Engineer</p> 
+                            <h1>SALVADOR</h1> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -219,7 +242,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>CUBA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -253,7 +276,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>Estados unidos</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p>  
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -267,7 +290,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>Canada</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p>  
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -281,7 +304,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>Alaska</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -315,7 +338,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>INDIA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p>  
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -329,7 +352,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>VIETNAM</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -343,7 +366,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>INDONESIA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -357,7 +380,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>TAIWAN</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -371,7 +394,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>SINGAPUR</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -385,7 +408,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>JAPON</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -399,7 +422,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>COREA DEL SUR</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p>  
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -413,7 +436,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>TAILANDIA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p>  
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -427,7 +450,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>MALASIA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p>  
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -441,7 +464,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>CHINA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p>  
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -477,7 +500,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>PORTUGAL</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p>  
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -491,7 +514,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>POLONIA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p>  
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -505,7 +528,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>GRECIA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -519,7 +542,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>UGRANIA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p>  
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -533,7 +556,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>AUSTRIA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> > 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -547,7 +570,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>ALEMANIA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -561,7 +584,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>ITALY</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p>  
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -575,7 +598,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>ESPAÑA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -589,7 +612,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>FRANCIA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -603,7 +626,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>REINO UNIDO</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p>  
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -638,7 +661,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>MOZAMBIQUE</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -652,7 +675,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>ETIOPIA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p>  
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -666,7 +689,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>MALAWI</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -680,7 +703,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>MARRUECOS</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -693,7 +716,7 @@
                             <img src="https://images.unsplash.com/photo-1573030946014-6e746ee501fb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Avatar" style="width:300px;height:300px;">
                         </div>
                         <div class="flip-card-back">
-                            <h1>SUDAFRICA</h1> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>Architect & Engineer</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
@@ -730,7 +753,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>AUSTRALIA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -744,7 +767,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>NUEVA ZELANDA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -758,7 +781,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>PAPUA NUEVA GUINEA</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p>  
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -772,7 +795,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>ISLAS SALOMON</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
@@ -786,7 +809,7 @@
                         </div>
                         <div class="flip-card-back">
                             <h1>VANUATU</h1> 
-                            <p>Architect & Engineer</p> 
+                            <p>LOS 5 LUGARES MAS TURISTICOS</p> 
                             <p>We love that guy</p>
                             <button type="button" class="btn btn-primary">Saber mas del destino</button>
                         </div>
